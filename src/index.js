@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     deleteButton = document.createElement('button')
     deleteButton.dataset.id = comment.id
-    deleteButton.className = 'delete'
+    deleteButton.className = 'delete btn'
     deleteButton.innerText = "×"
 
     li.appendChild(deleteButton)
